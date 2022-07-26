@@ -172,7 +172,7 @@ footer {
     align-items: flex-end;
 }
 
-footer a {
+footer .footer-link {
     font-family: var(--font-sc);
     font-size: 3.2rem;
     letter-spacing: 2px;
@@ -180,14 +180,16 @@ footer a {
     color: #000;
     display: flex;
     align-items: center;
-    justify-items: center;
     margin-right: 24px;
-    text-shadow: 4px 4px 0px var(--c4);
+    filter: drop-shadow(4px 4px 0px var(--c4));
 
 }
 
-footer img {
+footer .footer-link:hover {
+    filter: drop-shadow(4px 4px 0px var(--c7));
+}
+
+footer .footer-link img {
     height: 32px;
     margin-left: 12px;
-    filter: drop-shadow(4px 4px 0px var(--c4));
 }
