@@ -31,7 +31,6 @@ body {
 }
 header {
     width: 320px;
-    height: 20vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     font-family: var(--font-pr);
@@ -94,7 +93,7 @@ main {
 
 main .main--column .main--tarjeta {
     width: 320px;
-    height: 40vh;
+    height: 320px;
     background-image: url(../img/002_Rei.png);
     display: flex;
     justify-items: center;
