@@ -1,0 +1,193 @@
+:root {
+    --font-pr: 'Bebas Neue', cursive;
+    --font-sc: 'Outfit', sans-serif;
+    --c1: #cbd6d7;
+    --c2: #a5bdd6;
+    --c3: #759ab4;
+    --c4: #f5bdda;
+    --c5: #b63958;
+    --c6: #c7fba5;
+    --c7: #adf182;
+    --c8: #916cad;
+    --c9: #523874;
+    --c10: #dc7d68;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    width: 320px;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: var(--font-pr);
+    font-size: 2.4rem;
+    margin: 24px;
+}
+
+header .header--hashtag ul {
+    list-style: none;
+}
+
+
+header .header--right {
+
+}
+
+header .header--right p {
+    text-align: end;
+    margin-bottom: 102px;
+}
+
+header .header--right div {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 2px;
+}
+
+header .header--right div div {
+    
+}
+
+header .header--right div .header--right-c1 {
+    background-color: var(--c1);
+}
+
+header .header--right div .header--right-c2 {
+    background-color: var(--c2);
+}
+
+header .header--right div .header--right-c3 {
+    background-color: var(--c3);
+}
+
+header .header--right div .header--right-c4 {
+    background-color: var(--c4);
+}
+
+header .header--right div .header--right-c5 {
+    background-color: var(--c5);
+}
+
+main {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .main--column .main--tarjeta {
+    width: 320px;
+    height: 50vh;
+    background-image: url(../img/002_Rei.png);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+main .main--column .main--tarjeta img {
+    width: 250px;
+    position: absolute;
+    display: flex;
+    margin-left: 55px;
+}
+
+main .main--column .main--tarjeta .main--tarjeta-texto {
+    z-index: 100;
+    }
+
+main .main--tarjeta .main--tarjeta-texto p {
+    margin-left: 20px;
+    font-family: var(--font-pr);
+    font-size: 3.2rem;
+    text-shadow: 4px 4px 0px var(--c4);
+}
+
+main .main--column .main--tarjeta-side {
+    font-family: var(--font-sc);
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+    letter-spacing: 2px;
+}
+
+main .header--left-c1{
+    width: 320px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 2px;
+    justify-content: flex-start;    
+}
+
+main .header--left-c1 div {
+    width: 28px;
+    height: 20px;
+    margin: 0 2px;
+}
+
+main .header--left-c1 .header--right-c6 {
+    background-color: var(--c6);
+}
+
+main .header--left-c1 .header--right-c7 {
+    background-color: var(--c7);
+}
+
+main .header--left-c1 .header--right-c8 {
+    background-color: var(--c8);
+}
+
+main .header--left-c1 .header--right-c9 {
+    background-color: var(--c9);
+}
+
+main .header--left-c1 .header--right-c10 {
+    background-color: var(--c10);
+}
+
+
+
+footer {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+footer a {
+    font-family: var(--font-sc);
+    font-size: 3.2rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-right: 24px;
+    text-shadow: 4px 4px 0px var(--c4);
+
+}
+
+footer img {
+    height: 32px;
+    margin-left: 12px;
+    filter: drop-shadow(4px 4px 0px var(--c4));
+}
